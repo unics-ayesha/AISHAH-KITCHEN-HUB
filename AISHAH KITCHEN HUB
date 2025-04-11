@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aisha's Kitchen Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <h1>Aisha's Kitchen Hub</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h2>Welcome to Aisha's Kitchen Hub</h2>
+            <p>Your destination for delicious, homemade meals!</p>
+            <button><a href="#menu">Explore Our Menu</a></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Aisha's Kitchen Hub is dedicated to bringing the authentic taste of home-cooked meals right to your table. From traditional dishes to modern favorites, we prepare each meal with love and the finest ingredients.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Grilled Chicken</h3>
+            <p>A tender and juicy grilled chicken served with a side of veggies and rice.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Vegetable Curry</h3>
+            <p>A rich and flavorful curry made with seasonal vegetables and served with naan.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Spicy Pasta</h3>
+            <p>Pasta tossed in a spicy sauce with fresh herbs and parmesan cheese.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@aishaskitchenhub.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Aisha's Kitchen Hub | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
